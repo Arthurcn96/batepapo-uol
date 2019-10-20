@@ -11,10 +11,10 @@ export default HeaderSection;
 const styles = StyleSheet.create({
   header: {
     display: 'flex',
-    backgroundColor: '#236CEA',
+    backgroundColor: '#2a3350',
     alignItems: 'center',
     justifyContent: 'center',
-    height: 100,
+    height: 33,
     width:"100%",
   },
 });

@@ -16,14 +16,27 @@ export default class chatScreen extends Component {
         <HeaderSection title="Chat" />
         <View style={styles.content}>
           <ScrollView style={styles.chat}>
+
             <CardMessage name={"Luan"} message={"Minha primeira messagem"} />
+            <CardMessage name={"Arthur"} message={"Minha segunda messagem"} />
+            <CardMessage name={"Luan"} message={"Minha terceira messagem"} />
+            <CardMessage name={"Arthur"} message={"Minha quarta messagem"} />
+            <CardMessage name={"Luan"} message={"Minha quinta messagem"} />
+            <CardMessage name={"Luan"} message={"Minha sexta messagem"} />
+            <CardMessage name={"Luan"} message={"Minha sétima messagem"} />
+            <CardMessage name={"Luan"} message={"Minha oitava messagem"} />
+            <CardMessage name={"Arthur"} message={"Minha nona messagem"} />
+            <CardMessage name={"Luan"} message={"Minha décima messagem"} />
+            <CardMessage name={"Arthur"} message={"Minha décima++ messagem"} />
+
+
           </ScrollView>
           <View style={styles.sendMessageBox}>
             <TextInput
               style={styles.input}
               placeholder={"Digite sua mensagem"}
             ></TextInput>
-            <Button title={"Enviar"} />
+          <Button color= '#7a87b1' title={"Enviar"} />
           </View>
         </View>
       </View>
@@ -38,7 +51,7 @@ const styles = StyleSheet.create({
     flexDirection: "column"
   },
   input: {
-    width: "60%",
+    width: "70%",
     height: 40,
     borderWidth: 1,
     borderColor: "#B1B1B1",
@@ -52,7 +65,7 @@ const styles = StyleSheet.create({
     width: "100%",
     display: "flex",
     flexDirection: "column",
-    height: "70%",
+    height: 720,
     padding: 10,
     backgroundColor: "#FAF9EA"
   },
@@ -61,7 +74,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-around",
-    backgroundColor: "#DBFFC8",
+    backgroundColor: "#2a3350",
     height: 100,
     width: "100%"
   },
@@ -73,4 +86,3 @@ const styles = StyleSheet.create({
     alignItems: "center"
   }
 });
-  
